@@ -1,7 +1,11 @@
 # Coots
-## Description
-- This is a Unity Project made for the Ludwig Jam 2023
-- Play as a ball of yarn and climb to the top to save Coots the cat
+- This is a Unity Game made for the Ludwig Jam 2023
 ## Tech Stack
-- Physics and mechanics were created using Unity and C#
-- Art was made in Aseprite
+- Used Unity's built in physics systems to create the physics of the game
+- Programmed all of the in game mechanics using the C# language
+- Created all of the pixel art for the game in Aseprite
+## Description
+The theme of the game jam was Coots, which is the name of his white, fluffy cat.
+- The game is a platformer where you play as a ball of yarn andneed to scale a series of floating platforms to reach Coots.
+- Progress through 3 different stages in order to climb to the top to save Coots
+
