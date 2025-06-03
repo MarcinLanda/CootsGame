@@ -46,7 +46,7 @@ public class DragNShot : MonoBehaviour {
                     startPoint = cam.ScreenToWorldPoint(Input.mousePosition);
                 }
                 //StartCoroutine(clock(1, true));
-                if (Math.Abs(ball.gameObject.GetComponent<Rigidbody2D>().velocity.y) <= ySpeed && Math.Abs(ball.gameObject.GetComponent<Rigidbody2D>().velocity.x) <= xSpeed) {
+                if (Math.Abs(ball.gameObject.GetComponent<Rigidbody2D>().linearVelocity.y) <= ySpeed && Math.Abs(ball.gameObject.GetComponent<Rigidbody2D>().linearVelocity.x) <= xSpeed) {
                     ballPos = ball.transform.position;
                     if (Input.GetMouseButton(0)) {
                         holdingDown();
