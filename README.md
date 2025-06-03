@@ -1,5 +1,6 @@
 # Coots
 - This is a Unity Game made for the Ludwig Jam 2023
+  
   ![Coots](https://github.com/MarcinLanda/CootsGame/blob/master/Assets/Materials/thumbnail.png?raw=true "Thumbnail")
 
 ## Tech Stack
